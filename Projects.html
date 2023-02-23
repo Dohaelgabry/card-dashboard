@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  
+    <style>
+      :root {
+        font-size: 10px !important ;
+      }
+
+      .card1 {
+        position: relative;
+      }
+      .dropbtn {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+      }
+      .circle1 {
+        background-color: #ff7e61;
+        font-size: 0.5rem !important;
+        align-items: center;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      .circle1 .txt15 {
+        text-align: center;
+        padding-top: 29%;
+      }
+      .progress-xs {
+        height: 6px;
+      }
+      .mb-0 {
+        margin-bottom: 0 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- All card -->
+      <div class="row g-2">
+        <!-- card1 -->
+        <div class="col-lg-3 col-sm-6 col-md-4 col-xl-3">
+          <div class="card align-items-center bg-white Small shadow pt-3 card1">
+            <!-- dropdown -->
+            <div class="dropdown dropbtn">
+              <a data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-pencil"></i>
+                    Edit</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-trash-can"></i>
+                    Delet</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- txt -->
+            <div class="ps-3 pb-3">
+              <h5 class="card-title">Office Management</h5>
+              <h6 class="card-text text-secondary">
+                <span class="text-black"> 1</span> open tasks,
+                <span class="text-black"> 9</span>tasks completed
+              </h6>
+              <p class="card-text text-secondary pe-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. When an unknown printer took a galley of type and
+                scrambled it...
+              </p>
+
+              <h6 class="card-title">Deadline:</h6>
+              <h6 class="card-text text-secondary">17-04-2019</h6>
+            </div>
+
+            <!-- image g-1 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Project Leader :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+            </div>
+
+            <!-- image g-2 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Team :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <img
+                src="./image/avatar-7.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <div class="text-white rounded-circle d-inline-block circle1">
+                <p class="txt15">+15</p>
+              </div>
+            </div>
+
+            <!--text progress -->
+            <div class="row col-12">
+              <h6 class="col-9">Progress</h6>
+              <h6 class="col-3 text-end" style="color: #55cb72">40%</h6>
+            </div>
+
+            <!--progress  -->
+            <div class="col-12 ps-2 pe-2 pb-3">
+              <div class="progress progress-xs mb-0 col-12">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 40%; background-color: #55cb72"
+                  aria-valuenow="40"
+                  aria-valuemin="10%"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card2 -->
+        <div class="col-lg-3 col-sm-6 col-md-4 col-xl-3">
+          <div class="card align-items-center bg-white Small shadow pt-3 card1">
+            <!-- dropdown -->
+            <div class="dropdown dropbtn">
+              <a data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-pencil"></i>
+                    Edit</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-trash-can"></i>
+                    Delet</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- txt -->
+            <div class="ps-3 pb-3">
+              <h5 class="card-title">Office Management</h5>
+              <h6 class="card-text text-secondary">
+                <span class="text-black"> 1</span> open tasks,
+                <span class="text-black"> 9</span>tasks completed
+              </h6>
+              <p class="card-text text-secondary pe-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. When an unknown printer took a galley of type and
+                scrambled it...
+              </p>
+
+              <h6 class="card-title">Deadline:</h6>
+              <h6 class="card-text text-secondary">17-04-2019</h6>
+            </div>
+
+            <!-- image g-1 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Project Leader :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+            </div>
+
+            <!-- image g-2 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Team :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <img
+                src="./image/avatar-7.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <div class="text-white rounded-circle d-inline-block circle1">
+                <p class="txt15">+15</p>
+              </div>
+            </div>
+
+            <!--text progress -->
+            <div class="row col-12">
+              <h6 class="col-9">Progress</h6>
+              <h6 class="col-3 text-end" style="color: #55cb72">40%</h6>
+            </div>
+
+            <!--progress  -->
+            <div class="col-12 ps-2 pe-2 pb-3">
+              <div class="progress progress-xs mb-0 col-12">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 40%; background-color: #55cb72"
+                  aria-valuenow="40"
+                  aria-valuemin="10%"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card3 -->
+        <div class="col-lg-3 col-sm-6 col-md-4 col-xl-3">
+          <div class="card align-items-center bg-white Small shadow pt-3 card1">
+            <!-- dropdown -->
+            <div class="dropdown dropbtn">
+              <a data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-pencil"></i>
+                    Edit</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-trash-can"></i>
+                    Delet</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- txt -->
+            <div class="ps-3 pb-3">
+              <h5 class="card-title">Office Management</h5>
+              <h6 class="card-text text-secondary">
+                <span class="text-black"> 1</span> open tasks,
+                <span class="text-black"> 9</span>tasks completed
+              </h6>
+              <p class="card-text text-secondary pe-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. When an unknown printer took a galley of type and
+                scrambled it...
+              </p>
+
+              <h6 class="card-title">Deadline:</h6>
+              <h6 class="card-text text-secondary">17-04-2019</h6>
+            </div>
+
+            <!-- image g-1 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Project Leader :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+            </div>
+
+            <!-- image g-2 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Team :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <img
+                src="./image/avatar-7.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <div class="text-white rounded-circle d-inline-block circle1">
+                <p class="txt15">+15</p>
+              </div>
+            </div>
+
+            <!--text progress -->
+            <div class="row col-12">
+              <h6 class="col-9">Progress</h6>
+              <h6 class="col-3 text-end" style="color: #55cb72">40%</h6>
+            </div>
+
+            <!--progress  -->
+            <div class="col-12 ps-2 pe-2 pb-3">
+              <div class="progress progress-xs mb-0 col-12">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 40%; background-color: #55cb72"
+                  aria-valuenow="40"
+                  aria-valuemin="10%"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card4 -->
+        <div class="col-lg-3 col-sm-6 col-md-4 col-xl-3">
+          <div class="card align-items-center bg-white Small shadow pt-3 card1">
+            <!-- dropdown -->
+            <div class="dropdown dropbtn">
+              <a data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-pencil"></i>
+                    Edit</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-trash-can"></i>
+                    Delet</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- txt -->
+            <div class="ps-3 pb-3">
+              <h5 class="card-title">Office Management</h5>
+              <h6 class="card-text text-secondary">
+                <span class="text-black"> 1</span> open tasks,
+                <span class="text-black"> 9</span>tasks completed
+              </h6>
+              <p class="card-text text-secondary pe-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. When an unknown printer took a galley of type and
+                scrambled it...
+              </p>
+
+              <h6 class="card-title">Deadline:</h6>
+              <h6 class="card-text text-secondary">17-04-2019</h6>
+            </div>
+
+            <!-- image g-1 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Project Leader :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+            </div>
+
+            <!-- image g-2 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Team :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <img
+                src="./image/avatar-7.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <div class="text-white rounded-circle d-inline-block circle1">
+                <p class="txt15">+15</p>
+              </div>
+            </div>
+
+            <!--text progress -->
+            <div class="row col-12">
+              <h6 class="col-9">Progress</h6>
+              <h6 class="col-3 text-end" style="color: #55cb72">40%</h6>
+            </div>
+
+            <!--progress  -->
+            <div class="col-12 ps-2 pe-2 pb-3">
+              <div class="progress progress-xs mb-0 col-12">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 40%; background-color: #55cb72"
+                  aria-valuenow="40"
+                  aria-valuemin="10%"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card5 -->
+        <div class="col-lg-3 col-sm-6 col-md-4 col-xl-3">
+          <div class="card align-items-center bg-white Small shadow pt-3 card1">
+            <!-- dropdown -->
+            <div class="dropdown dropbtn">
+              <a data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-pencil"></i>
+                    Edit</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-trash-can"></i>
+                    Delet</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- txt -->
+            <div class="ps-3 pb-3">
+              <h5 class="card-title">Office Management</h5>
+              <h6 class="card-text text-secondary">
+                <span class="text-black"> 1</span> open tasks,
+                <span class="text-black"> 9</span>tasks completed
+              </h6>
+              <p class="card-text text-secondary pe-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. When an unknown printer took a galley of type and
+                scrambled it...
+              </p>
+
+              <h6 class="card-title">Deadline:</h6>
+              <h6 class="card-text text-secondary">17-04-2019</h6>
+            </div>
+
+            <!-- image g-1 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Project Leader :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+            </div>
+
+            <!-- image g-2 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Team :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <img
+                src="./image/avatar-7.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <div class="text-white rounded-circle d-inline-block circle1">
+                <p class="txt15">+15</p>
+              </div>
+            </div>
+
+            <!--text progress -->
+            <div class="row col-12">
+              <h6 class="col-9">Progress</h6>
+              <h6 class="col-3 text-end" style="color: #55cb72">40%</h6>
+            </div>
+
+            <!--progress  -->
+            <div class="col-12 ps-2 pe-2 pb-3">
+              <div class="progress progress-xs mb-0 col-12">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 40%; background-color: #55cb72"
+                  aria-valuenow="40"
+                  aria-valuemin="10%"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card6 -->
+        <div class="col-lg-3 col-sm-6 col-md-4 col-xl-3">
+          <div class="card align-items-center bg-white Small shadow pt-3 card1">
+            <!-- dropdown -->
+            <div class="dropdown dropbtn">
+              <a data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-pencil"></i>
+                    Edit</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-sharp fa-solid fa-trash-can"></i>
+                    Delet</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- txt -->
+            <div class="ps-3 pb-3">
+              <h5 class="card-title">Office Management</h5>
+              <h6 class="card-text text-secondary">
+                <span class="text-black"> 1</span> open tasks,
+                <span class="text-black"> 9</span>tasks completed
+              </h6>
+              <p class="card-text text-secondary pe-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. When an unknown printer took a galley of type and
+                scrambled it...
+              </p>
+
+              <h6 class="card-title">Deadline:</h6>
+              <h6 class="card-text text-secondary">17-04-2019</h6>
+            </div>
+
+            <!-- image g-1 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Project Leader :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+            </div>
+
+            <!-- image g-2 -->
+            <div class="ps-3 pb-3">
+              <h6 class="card-title col-12">Team :</h6>
+              <img
+                src="./image/avatar-1.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-2.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+              <img
+                src="./image/avatar-5.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <img
+                src="./image/avatar-7.jpg"
+                class="rounded-circle col-1"
+                alt="..."
+              />
+
+              <div class="text-white rounded-circle d-inline-block circle1">
+                <p class="txt15">+15</p>
+              </div>
+            </div>
+
+            <!--text progress -->
+            <div class="row col-12">
+              <h6 class="col-9">Progress</h6>
+              <h6 class="col-3 text-end" style="color: #55cb72">40%</h6>
+            </div>
+
+            <!--progress  -->
+            <div class="col-12 ps-2 pe-2 pb-3">
+              <div class="progress progress-xs mb-0 col-12">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 40%; background-color: #55cb72"
+                  aria-valuenow="40"
+                  aria-valuemin="10%"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
